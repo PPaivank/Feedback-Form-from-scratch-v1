@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>HMSC Form</title>
+</head>
+
+<body>
+    <form class="Form_1" method="post">
+        <br>
+        <div class="header_1">
+            <h1>Pesquisa de Satisfação Plano de Saúde São Cristóvão - Março 2022 </h1>
+            <br>
+            <div class="header_2">
+                <p> Identificamos que você foi atendido em um dos prestadores de nossa Rede <br>Credenciada. É muito
+                    importante
+                    pra nós, saber como foi este atendimento e se <br>você teve a sua necessidade atendida.</p>
+                <p> Por esse motivo, pedimos que você responda a nossa pesquisa. Você vai gastar 5<br> minutos do seu
+                    tempo, para que nós possamos dedicar 100% do nosso tempo<br> para melhorar o atendimento prestado a
+                    você
+                    e aos demais beneficiários.</p>
+                <p> <i> <b> Agradecemos a sua colaboração! </b> </i></p>
+                <p id="smartphone_p"> (Caso responda a pesquisa via smartphone, utilize os botões na parte inferior da
+                    tela para avançar ou voltar pelas perguntas).</p>
+                <p> <b> Atenção:</b> Ao Iniciar e Enviar esta pesquisa de satisfação ao Grupo São Cristovão <br> Saúde,
+                    você
+                    concorda que suas avaliações, manifestações e opiniões prestadas<br> sejam monitoradas e compliadas,
+                    juntamente ás respostas dos demais pacientes,<br> gerando relatórios estatísticos, divulgados
+                    internamente aos nossos gestores.
+                    <br>
+                    Além disso, concorda também em receber contato de um colaborador do Grupo<br> São Cristóvão Saúde,
+                    responsável pela unidade a qual se referiu no questionário,<br> caso
+                    necessário, para prestar mais detalhes a respeito da avaliação feita.
+                </p>
+            </div>
+        </div>
+        <p id="text_under_the_box"> Por favor informe o seu grau de satisfação quanto ao atendimento recebido. </p>
+        <!-- QUESTION 1 -->
+        <section>
+            <div class="header_3">
+                <h3> Você recomendaria o Plano de Saúde São Cristóvão a um familiar ou amigo? </h3>
+                <P> Instruções da pergunta: <i> Considerar 0 para Certamente Não e 10 para Definitivamente Sim </i> </P>
+            </div>
+        </section>
+
+
+        <!-- RADIO BUTTONS - ANSWER 1 -->
+        <section>
+            <div class="Numbers">
+                <img id="NumbersIMG" src="../imgs/Numbers2.png">
+            </div>
+            <center>
+                <hr id="hr_answer1">
+                <br>
+                <div class="input_answer1_header3">
+                    <input type="radio" id="0" name="YesOrNo" value="0">
+                    <input type="radio" id="1" name="YesOrNo" value="1">
+                    <input type="radio" id="2" name="YesOrNo" value="2">
+                    <input type="radio" id="3" name="YesOrNo" value="3">
+                    <input type="radio" id="4" name="YesOrNo" value="4">
+                    <input type="radio" id="5" name="YesOrNo" value="5">
+                    <input type="radio" id="6" name="YesOrNo" value="6">
+                    <input type="radio" id="7" name="YesOrNo" value="7">
+                    <input type="radio" id="8" name="YesOrNo" value="8">
+                    <input type="radio" id="9" name="YesOrNo" value="9">
+                    <input type="radio" id="10" name="YesOrNo" value="10">
+                </div>
+                <P class="CertamenteNão"> Certamente Não </P>
+                <P class="CertamenteSim"> Definitivamente Sim </P>
+                <div class="answer1_header3">
+
+                </div>
+        </section>
+        </center>
+        <br>
+        <!-- END OF FIRST QUESTION -->
+
+        <!-- QUESTION 2 -->
+        <section>
+            <div class="header_3">
+                <h3> O que não atendeu a sua expectativa durante a utilização do Plano de Saúde São Cristóvão? </h3>
+                <P> Instruções da pergunta: <i> Selecione 1 ou mais respostas </i> </P>
+            </div>
+        </section>
+        <!-- CHECKBOX - ANSWER2 -->
+        <section>
+            <div class="Checkbox_1">
+                <!-- Checkbox 1 -->
+                <input type="checkbox" id="checkbox_1" name="checkbox_1" value="Canais">
+                <label for="checkbox_1" class="label_checkbox"> Canais de Atendimento do Plano de Saúde (Telefone
+                    (2029-7300 ou 0800-7700666),
+                    Cris, E-Mail (planosdesaude@saocristovao.com.br), Site ou APP São Cristóvão)
+                </label>
+                <br> <br>
+
+                <!-- Checkbox 2 -->
+                <input type="checkbox" id="checkbox_2" name="checkbox_2" value="PrazoConsulta">
+                <label for="checkbox_2" class="label_checkbox"> Prazo das Agendas para Consultas na Rede Credenciada
+                </label>
+                <br> <br>
+
+                <!-- Checkbox 3 -->
+                <input type="checkbox" id="checkbox_3" name="checkbox_3" value="PrazoExames">
+                <label for="checkbox_3" class="label_checkbox"> Prazo das Agendas para Exames na Rede Credenciada
+                </label>
+                <br> <br>
+
+                <!-- Checkbox 4, Outros -->
+                <input type="checkbox" id="checkbox_4" name="checkbox_4" value="Outros">
+                <label for="checkbox_4" class="label_checkbox"> Outros. Qual?
+                </label> <br>
+                <textarea class="TextArea1" name="Outros"></textarea>
+                </textarea>
+
+            </div>
+        </section>
+        <hr>
+        <!-- END OF QUESTION 2 -->
+
+        <!-- QUESTION 3 -->
+        <section>
+            <div class="header_3">
+                <h3> Seu último contato com o Plano de Saúde São Cristóvão, foi por meio de qual desses canais? </h3>
+                <P> Instruções da pergunta: <i> Selecione uma resposta </i> </P>
+            </div>
+        </section>
+        <!-- ASNWER 3 - RADIO BUTTONS -->
+
+        <section>
+            <div class="input2_answer_3">
+                <input type="radio" id="App" name="opção" value="App_São_Cristovão">
+                <label for="App">Aplicativo São Cristovão
+                </label><br>
+
+                <input type="radio" id="Atendimento" name="opção" value="Atendimento_Presencial">
+                <label for="Atendimento">Atendimento Presencial (Pessoalmente)
+                </label><br>
+
+                <input type="radio" id="Assistente" name="opção" value="Assistente_Virtual">
+                <label for=" Assistente">Assistente Virtual (Cris)
+                </label> <br>
+
+                <input type="radio" id="Email" name="opção" value="Email">
+                <label for="Email">E-Mail (planosdesaude@saocristovao.com.br)
+                </label> <br>
+
+                <input type="radio" id="Site" name="opção" value="Site">
+                <label for="Site"> Site (www.saocristovao.com.br)
+                </label> <br>
+            </div>
+        </section>
+        <section>
+            <div class="header_3">
+                <h3> Tempo que você levou para ser chamado ao Atendimento Presencial (Guichês de Atendimento)? </h3>
+                <P> Instruções da pergunta: <i> Considerar 1 para Insatisfeito e 10 para Muito Satisfeito </i> </P>
+                <br>
+            </div>
+        </section>
+        <div class="header_3">
+            <h3> Atenção e Cordialidade do Atendente Presencial (Guichês de Atendimento)? </h3>
+            <P> Instruções da pergunta: <i> Considerar 1 para Insatisfeito e 10 para Muito Satisfeito </i> </P>
+            <br>
+        </div>
+        </section>
+
+        <div class="header_3">
+            <h3> Tempo que você levou para seratendido por Telefone (0800-7700666 ou 2029-7300)? </h3>
+            <P> Instruções da pergunta: <i> Considerar 1 para Insatisfeito e 10 para Muito Satisfeito </i> </P>
+            <br>
+        </div>
+        </section>
+
+        <div class="header_3">
+            <h3>Atenção e Cordialidade do Atendente por Telefone (0800-7700666 ou 2029-7300)?</h3>
+            <P> Instruções da pergunta: <i> Considerar 1 para Insatisfeito e 10 para Muito Satisfeito </i> </P>
+            <br>
+        </div>
+        </section>
+
+        <div class="header_3">
+            <h3> Como você avalia o atendimento de nossa Assistente Virtual (Cris)? </h3>
+            <P> Instruções da pergunta: <i> Considerar 1 para Insatisfeito e 10 para Muito Satisfeito </i> </P>
+            <br>
+        </div>
+        </section>
+
+
+
+
+</body>
+
+</html>

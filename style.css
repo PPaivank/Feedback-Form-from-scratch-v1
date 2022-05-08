@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(59, 59, 59);
+}
+
+.Form_1 {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ffffff;
+    height: 2200px;
+    width: 785px;
+}
+
+.header_1 h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.header_1 p {
+    display: block;
+    width: 700px;
+    font-size: 17px;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+#smartphone_p {
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.header_2 {
+    border-right: 1px;
+    border-top: 1px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-color: black;
+    border-style: ridge;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+#text_under_the_box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.header_3 h3 {
+    margin-left: 40px;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.header_3 p {
+    margin-left: 40px;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.input_answer1_header3 {
+    transform: scale(1.6);
+    cursor: pointer;
+}
+
+
+.Numbers p {
+    font-size: 12px;
+    text-align: center;
+    transform: scale(1.6);
+    font-family: Arial;
+}
+
+#NumbersIMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#hr_answer1 {
+    transform: scale(1.5);
+    width: 430px;
+    /* background-color: rgb(36, 36, 36); */
+
+}
+
+.CertamenteNão {
+    margin-left: 70px;
+    margin-top: -19px;
+
+    text-align: left;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.CertamenteSim {
+    margin-right: 66px;
+    margin-top: -25px;
+    text-align: right;
+    font-family: Arial;
+    font-size: 12px;
+
+}
+
+.Checkbox_1 {
+    padding-left: 40px;
+    /* margin-left: 38px;
+  padding: 10px; */
+
+
+}
+
+.label_checkbox {
+    padding-left: 11px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.TextArea1 {
+    margin-top: 7px;
+    margin-left: 15px;
+    max-width: 400px;
+    max-height: 400px;
+    width: 30%;
+    resize: vertical;
+    position: relative;
+    left: 145px;
+    top: -30px;
+
+}
+
+.input2_answer_3 {
+    /* transform: scale(1.6); */
+    cursor: pointer;
+    margin-left: 40px;
+    font-family: Arial;
+    font-size: 18px;
+
+}
+

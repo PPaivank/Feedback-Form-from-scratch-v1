@@ -69,8 +69,20 @@ body {
     font-size: 13px;
 }
 
+.Center_HR_and_Header3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .input_answer1_header3 {
     transform: scale(1.6);
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.cursor-pointer {
     cursor: pointer;
 }
 
@@ -78,8 +90,9 @@ body {
 .Numbers p {
     font-size: 12px;
     text-align: center;
-    transform: scale(1.6);
+    transform: scale(1.4);
     font-family: Arial;
+    cursor: pointer;
 }
 
 #NumbersIMG {
@@ -99,7 +112,6 @@ body {
 .CertamenteNão {
     margin-left: 70px;
     margin-top: -19px;
-
     text-align: left;
     font-family: Arial;
     font-size: 12px;
@@ -116,11 +128,26 @@ body {
 
 .Checkbox_1 {
     padding-left: 40px;
-    /* margin-left: 38px;
-  padding: 10px; */
-
 
 }
+
+/* CURSOR POINTER AT THE CHECKBOX IN THE 1ST QUESTION */
+#checkbox_1 {
+    cursor: pointer;
+}
+
+#checkbox_2 {
+    cursor: pointer;
+}
+
+#checkbox_3 {
+    cursor: pointer;
+}
+
+#checkbox_4 {
+    cursor: pointer;
+}
+
 
 .label_checkbox {
     padding-left: 11px;
@@ -134,7 +161,7 @@ body {
     max-width: 400px;
     max-height: 400px;
     width: 30%;
-    resize: vertical;
+    resize: none;
     position: relative;
     left: 145px;
     top: -30px;
@@ -150,3 +177,25 @@ body {
 
 }
 
+/* CURSOR POINTER IN THE RADIO BUTTON LOCATED AT THE 2ND QUESTION */
+#App {
+    cursor: pointer;
+}
+
+#Atendimento {
+    cursor: pointer;
+}
+
+
+#Assistente {
+    cursor: pointer;
+}
+
+
+#Email {
+    cursor: pointer;
+}
+
+#Site {
+    cursor: pointer;
+}
